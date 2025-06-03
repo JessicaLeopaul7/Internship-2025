@@ -1,0 +1,71 @@
+.header{
+    height:50px;
+    width:100%;
+    z-index:1000;
+    border:1px solid white;
+    background-color: white;
+    display: flex;
+    position:fixed;
+    top:0;
+}
+
+.menu-btn,.mic-btn{
+    border:1px solid white;
+    border-radius:50%;
+    background-color: rgb(242, 242, 242);
+    padding:8px;
+    height:40px;
+    width:40px;    
+}
+
+.menu-btn{
+    margin:5px 10px 5px 20px;
+}
+
+.logo-link {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block; /* or flex if needed */
+  }
+  
+.logo{
+    width:100px;
+    height:50px;
+    margin-right:auto;
+}
+
+.search-bar{
+    display:flex;
+    margin-right:auto;
+    margin-left: auto;
+}
+
+.mic-btn{
+    margin:5px 10px;
+}
+
+.profile{
+    border:1px solid white;
+    border-radius:35px;
+    background-color: rgb(242, 242, 242);
+    padding:7px;
+    height:25px;
+    width:100px;
+    margin:5px 20px 5px auto;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.profile div{
+    font-size:15px;
+    font-weight: bold;
+}
+
+.menu-btn,.logo, .mic-btn, .profile {
+    cursor: pointer;
+}
+
+.menu-btn:hover, .mic-btn:hover,.profile:hover{
+    background-color: rgb(229, 229, 229);
+}

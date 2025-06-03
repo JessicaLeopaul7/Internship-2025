@@ -1,0 +1,72 @@
+.home-video-card, .view-video-card{
+  background-color: white;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  color: black;
+}
+  
+.view-video-card{
+  display:flex;
+  margin-bottom:5px;
+}
+
+.home-video-card:hover {
+  transform: scale(1.02);
+} 
+
+.home-thumbnail-container,.view-thumbnail-container{  
+  display:block;
+  position: relative;
+}
+
+.view-thumbnail-container{  
+  width:40%;
+}
+
+.thumbnail{
+  width:100%;
+  border-radius:10px;
+}
+
+.time-stamp{
+  border-radius:4px;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding:2px 4px;
+  position:absolute;
+  right:2%;
+  bottom:6%;
+  color:white;
+  font-size:12px;
+  font-family: "Roboto", "Arial", sans-serif;
+}
+
+.home-video-info,.view-video-info{
+  padding:5px;
+}
+
+.view-video-info{
+  width:60%;
+}
+
+.video-title{
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+  font-size:16px;
+  font-family: "Roboto", "Arial", sans-serif;
+}
+
+.video-channel, .video-stats{
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  overflow: hidden;
+  margin-top:5px;
+  font-size:14px;
+  font-family: "Roboto", "Arial", sans-serif;
+  color:rgb(100, 100, 100);
+}

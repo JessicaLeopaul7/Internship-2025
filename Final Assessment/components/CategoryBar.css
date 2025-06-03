@@ -1,0 +1,33 @@
+.category-bar{
+    border:none;
+    background-color: white;
+    height:60px;
+    width:80%;
+    padding:0px 20px;
+    display:flex;
+    gap:20px;
+    align-items: center;
+    position:fixed;
+    top:52px;
+    right:0px;
+    z-index:999;
+    overflow-x:auto;
+}
+
+.category-bar button{
+    height:30px;
+    padding:0px 10px;
+    border:none;
+    border-radius:5px;
+    font-weight:bold;
+    font-family: "Roboto", "Arial", sans-serif;
+}
+
+.inactive-category{
+    background-color: rgb(242, 242, 242);
+}
+
+.active-category{
+    background-color: black;
+    color:white;
+}
